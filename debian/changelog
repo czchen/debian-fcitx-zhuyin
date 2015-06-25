@@ -1,0 +1,5 @@
+fcitx-zhuyin (0~20150625-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@gmail.com>  Thu, 25 Jun 2015 20:39:53 +0800

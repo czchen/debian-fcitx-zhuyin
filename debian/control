@@ -1,0 +1,19 @@
+Source: fcitx-zhuyin
+Section: utils
+Priority: optional
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Uploaders: ChangZhuo Chen (陳昌倬) <czchen@gmail.com>,
+Build-Depends: debhelper (>= 9),
+               cmake (>= 2.8.6),
+               libzhuyin-dev (>= 0.9.91),
+Standards-Version: 3.9.6
+Homepage: http://github.com/fcitx/fcitx-zhuyin
+Vcs-Git: git://anonscm.debian.org/pkg-ime/fcitx-zhuyin.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-ime/fcitx-zhuyin.git
+
+Package: fcitx-zhuyin
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
