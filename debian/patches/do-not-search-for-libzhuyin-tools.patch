@@ -7,9 +7,9 @@ Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
 Forwarded: <no|not-needed|url proving that it has been forwarded>
 Reviewed-By: <name and email of someone who approved the patch>
 Last-Update: <YYYY-MM-DD>
---- fcitx-zhuyin-0~20150625.orig/cmake/FindLibZhuyin.cmake
-+++ fcitx-zhuyin-0~20150625/cmake/FindLibZhuyin.cmake
-@@ -29,9 +29,6 @@ find_library(LIBZHUYIN_LIBRARIES
+--- a/cmake/FindLibZhuyin.cmake
++++ b/cmake/FindLibZhuyin.cmake
+@@ -29,18 +29,12 @@
               NAMES zhuyin
               HINTS ${PC_LIBZHUYIN_LIBDIR})
  
@@ -19,3 +19,12 @@ Last-Update: <YYYY-MM-DD>
  
  include(FindPackageHandleStandardArgs)
  find_package_handle_standard_args(LibZhuyin  DEFAULT_MSG
+                                   LIBZHUYIN_LIBRARIES
+                                   LIBZHUYIN_INCLUDE_DIR
+                                   LIBZHUYIN_PKGDATADIR
+-                                  LIBZHUYIN_GEN_BINARY_FILES
+-                                  LIBZHUYIN_GEN_UNIGRAM
+-                                  LIBZHUYIN_IMPORT_INTERPOLATION
+                                   PC_LIBZHUYIN_FOUND
+                                   )
+ 
