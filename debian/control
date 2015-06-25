@@ -17,3 +17,11 @@ Depends: ${misc:Depends},
          ${shlibs:Depends},
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
+
+Package: fcitx-zhuyin-dbg
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         fcitx-zhuyin (= ${binary:Version}),
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
