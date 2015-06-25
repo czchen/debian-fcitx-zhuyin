@@ -1,0 +1,21 @@
+Description: Do not search for libzhuyin tools
+---
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+--- fcitx-zhuyin-0~20150625.orig/cmake/FindLibZhuyin.cmake
++++ fcitx-zhuyin-0~20150625/cmake/FindLibZhuyin.cmake
+@@ -29,9 +29,6 @@ find_library(LIBZHUYIN_LIBRARIES
+              NAMES zhuyin
+              HINTS ${PC_LIBZHUYIN_LIBDIR})
+ 
+-find_program(LIBZHUYIN_GEN_BINARY_FILES gen_binary_files HINTS "${LIBZHUYIN_EXECPREFIX}/bin")
+-find_program(LIBZHUYIN_GEN_UNIGRAM gen_unigram HINTS "${LIBZHUYIN_EXECPREFIX}/bin")
+-find_program(LIBZHUYIN_IMPORT_INTERPOLATION import_interpolation HINTS "${LIBZHUYIN_EXECPREFIX}/bin")
+ 
+ include(FindPackageHandleStandardArgs)
+ find_package_handle_standard_args(LibZhuyin  DEFAULT_MSG
