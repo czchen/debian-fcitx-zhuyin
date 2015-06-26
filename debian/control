@@ -22,6 +22,7 @@ Description: Fcitx wrapper for Zhuyin library
  sentence-based Chinese zhuyin input methods for Traditional Chinese user.
 
 Package: fcitx-zhuyin-dbg
+Section: debug
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
