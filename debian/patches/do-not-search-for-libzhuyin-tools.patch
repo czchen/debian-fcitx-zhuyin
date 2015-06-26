@@ -1,12 +1,7 @@
 Description: Do not search for libzhuyin tools
 ---
-Origin: <vendor|upstream|other>, <url of original patch>
-Bug: <url in upstream bugtracker>
-Bug-Debian: https://bugs.debian.org/<bugnumber>
-Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
-Forwarded: <no|not-needed|url proving that it has been forwarded>
-Reviewed-By: <name and email of someone who approved the patch>
-Last-Update: <YYYY-MM-DD>
+Bug: https://github.com/fcitx/fcitx-zhuyin/pull/1
+Forwarded: https://github.com/fcitx/fcitx-zhuyin/pull/1
 --- a/cmake/FindLibZhuyin.cmake
 +++ b/cmake/FindLibZhuyin.cmake
 @@ -29,18 +29,12 @@
