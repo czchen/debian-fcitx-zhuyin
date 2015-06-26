@@ -15,13 +15,21 @@ Package: fcitx-zhuyin
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Fcitx wrapper for Zhuyin library
+ fcitx-zhuyin is a wrapper of Zhuyin IM engine for Fcitx.
+ .
+ The libzhuyin project aims to provide the algorithms core for intelligent
+ sentence-based Chinese zhuyin input methods for Traditional Chinese user.
 
 Package: fcitx-zhuyin-dbg
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          fcitx-zhuyin (= ${binary:Version}),
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Debug symbols for fcitx-zhuyin
+ fcitx-zhuyin is a wrapper of Zhuyin IM engine for Fcitx.
+ .
+ The libzhuyin project aims to provide the algorithms core for intelligent
+ sentence-based Chinese zhuyin input methods for Traditional Chinese user.
+ .
+ This package provides debug symbols for fcitx-zhuyin.
