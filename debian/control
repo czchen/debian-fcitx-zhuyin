@@ -23,6 +23,7 @@ Description: Fcitx wrapper for Zhuyin library
 
 Package: fcitx-zhuyin-dbg
 Section: debug
+Priority: extra
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
